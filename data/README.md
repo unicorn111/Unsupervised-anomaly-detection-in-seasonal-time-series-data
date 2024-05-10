@@ -1,4 +1,6 @@
-seasonal_time_series_for_anomaly_detection<br />
+**seasonal_time_series_for_anomaly_detection**
+
+
 This dataset contains seven CSV files with artificially generated, ordered, timestamped, single-valued metrics for three months divided by days of the week with no anomalies. Also, three CSV files are artificially generated, ordered, timestamped, and have single-valued metrics with anomalies, and two CSV files have a weak representation (one with anomalies).
 
 Motivation<br />
