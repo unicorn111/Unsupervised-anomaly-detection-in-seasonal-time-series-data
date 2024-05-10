@@ -1,7 +1,7 @@
 **seasonal_time_series_for_anomaly_detection**
 
 
-This dataset contains seven CSV files with artificially generated, ordered, timestamped, single-valued metrics for three months divided by days of the week with no anomalies. Also, three CSV files are artificially generated, ordered, timestamped, and have single-valued metrics with anomalies, and two CSV files have a weak representation (one with anomalies).
+This dataset contains seven CSV files with artificially generated, ordered, timestamped, single-valued metrics for three months divided by days of the week with no anomalies. Also, three CSV files are artificially generated, ordered, timestamped, and have single-valued metrics with anomalies, and two CSV files have a week representation (one with anomalies). Finally, it has one file with artificially generated, ordered, timestamped, single-valued metrics for three months.
 
 Motivation<br />
 This dataset was created as a part of a bachelor's thesis. Our proposed solution suggests dividing time series data based on its periodicity and training an auto-encoder model for each period for anomaly detection. For these needs, we decided to create this dataset based on the NAB dataset.
