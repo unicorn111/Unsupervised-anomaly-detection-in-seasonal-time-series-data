@@ -7,7 +7,7 @@ Motivation<br />
 This dataset was created as a part of a bachelor's thesis. Our proposed solution suggests dividing time series data based on its periodicity and training an auto-encoder model for each period for anomaly detection. For these needs, we decided to create this dataset based on the NAB dataset.
 
 Composition<br />
-Our dataset consists of two columns: timestamp and value. The timestamp column is represented by a date in the format "%Y-%m-%d %H:%M:%S" with a five-minute time interval. The value column is represented by a positive number. This dataset contains 41.5k rows in total. Each week's day CSV contains 3745 rows. Two CSV's containing weekly data have 2017 rows each. There are no missing values in this dataset. All weekday CSVs and weekly with no anomalies are meant for training; the rest with anomalies are meant for testing. This dataset was created based on the NAB dataset https://github.com/numenta/NAB/tree/v1.1/data
+Our dataset consists of two columns: timestamp and value. The timestamp column is represented by a date in the format "%Y-%m-%d %H:%M:%S" with a five-minute time interval. The value column is represented by a positive number. This dataset contains 67.7k rows in total. Each week's day CSV contains 3745 rows. Two CSV's containing weekly data have 2017 rows each. There are no missing values in this dataset. All weekday CSVs and weekly with no anomalies are meant for training; the rest with anomalies are meant for testing. This dataset was created based on the NAB dataset https://github.com/numenta/NAB/tree/v1.1/data
 
 Generation process<br />
 Dates were generated for January, February, and March of 2024; values were used from the NAB dataset but modified to show the seasonality of a week.
